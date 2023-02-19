@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Pseudo-Element Reference</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container"><h1 id="page_title">CSS Psuedo-Element Reference</h1>
+    <table>
+        <caption>
+            Note: CSS Pseudo-elements use a double colon
+            <span class="highlight">::</span> while CSS <a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">pseudo-<em>classes</em></a> use a
+            single colon <span class="highlight">:</span>
+          </caption>
+      <thead>
+        <tr id="header">
+          <td>Pseudo-class</td>
+          <td>Example</td>
+          <td>Description</td>
+          <td>Notes</td>
+        </tr>
+      </thead>
+      <tbody>
+      <tr class="content">
+        <td class="pseudo-class">::after</td>
+        <td class="example"><span class="code">p::after</span></td>
+        <td class="description">Insert content after every <code>&lt;p&gt;</code> element</td>
+        <td class="notes"></td>
+      </tr>
+      
+      <tr class="content">
+        <td class="pseudo-class">::before</td>
+        <td class="example"><span class="code">p::before</span></td>
+        <td class="description">Insert content before every <code>&lt;p&gt;</code> element</td>
+        <td class="notes"></td>
+      </tr>
+            
+      <tr class="content">
+        <td class="pseudo-class">::first-letter</td>
+        <td class="example"><span class="code">p::first-letter</span></td>
+        <td class="description">Selects the first letter of every <code>&lt;p&gt;</code> element</td>
+        <td class="notes">The <span class="code">::letter-line</span> pseudo-element can only be applied to block-level elements</td>
+      </tr>
+            
+      <tr class="content">
+        <td class="pseudo-class">::first-line</td>
+        <td class="example"><span class="code">p::first-line</span></td>
+        <td class="description">Selects the first line of every <code>&lt;p&gt;</code> element</td>
+        <td class="notes">The <span class="code">::first-line</span> pseudo-element can only be applied to block-level elements.</td>
+      </tr>
+            
+      <tr class="content">
+        <td class="pseudo-class">::marker</td>
+        <td class="example"><span class="code">::marker</span></td>
+        <td class="description">Selects the markers of list items</td>
+        <td class="notes"></td>
+      </tr>
+            
+      <tr class="content">
+        <td class="pseudo-class">::placeholder</td>
+        <td class="example"><span class="code">input::placeholder</span></td>
+        <td class="description">Selects input elements with the "placeholder" attribute specified</td>
+        <td class="notes">Typically the input filed in a form.</td>
+      </tr>
+            
+      <tr class="content">
+        <td class="pseudo-class">::selection</td>
+        <td class="example"><span class="code">::selection</span></td>
+        <td class="description">Selects the portion of an element that is selected by a user</td>
+        <td class="notes">The following CSS properties can be applied to <span class="code">::selection:</span> <span class="code">color</span>, <span class="code">background</span>, <span class="code">cursor</span>, and <span class="code">outline</span>.</td>
+      </tr>
+    </tbody>
+    </table>
+</div>
+<div id="footer"><p>This is a <a href="https://codecademy.com" target="_blank">Codecademy</a> project created by <a href="https://github.com/jamesllllllllll" target="_blank">James</a> - Feb 2023</p>
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div>
+  </body>
+</html>
