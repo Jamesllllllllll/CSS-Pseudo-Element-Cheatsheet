@@ -33,16 +33,13 @@ table {
 }
   
 thead {
-  background-color: #B23D7D;
+  background-color: #d36ea5;
   color: #fff;
-}
-
-thead td {
-    padding: .25em 1em;
+  font-weight: bold;
 }
   
 td {
-  padding: .25em;
+  padding: .5em 1em;
 }
 
 tbody td {
