@@ -37,6 +37,10 @@ thead {
   color: #fff;
   font-weight: bold;
 }
+
+thead td {
+  border-radius: 5px;
+}
   
 td {
   padding: .5em 1em;
