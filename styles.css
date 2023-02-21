@@ -4,14 +4,13 @@
     margin: 0 auto;
 }
 
-body {
+html {
     background-color: #eee;
     font-size:14px;
 }
 
 #container {
   padding-top: 2em;
-
 }
   
 caption {
